@@ -1,0 +1,113 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color:white;
+  background-color:rgb(39, 31, 31);
+}
+
+
+.banner{
+  height: 300px;
+  width: 100%;
+  background-image: url(https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/QQWVSJ6MDVGKRELX455KIABEEY.gif);
+  background-position: 45% 33%;
+}
+
+.App {
+  text-align: center;
+  
+}
+
+.Title{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Pangolin",sans-serif;
+  font-size: 48px;
+}
+
+
+.groupBox {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h2{
+  font-family: "Pangolin",sans-serif;
+}
+
+.subTitle{
+  text-align: left;
+  padding-left: 7%;
+}
+
+.input{
+  background-color: rgb(39, 24, 24);
+  width: 30%;
+  height: 30px;
+}
+
+button{
+  height: 30px;
+  width:5%
+}
+
+.locationName{
+  padding-top:20px;
+}
+
+.LocalSubsContent{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mainBox{
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+}
+
+.charContent{
+  height: 200px;
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  margin:20px;
+}
+
+.charImg{
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+
+.descripContent{
+  height: 200px;
+  width: 250px;
+  padding-left: 20px;
+  padding-top:20px;
+  background-color: rgb(39, 24, 24);
+  text-align: left;
+  border-radius: 10%;
+}
+
+.descrip{
+  background-color: rgb(39, 24, 24);
+}
+
+.descrip2{
+  color:gray;
+  background-color: rgb(39, 24, 24);
+  font-size: 13px;
+}
